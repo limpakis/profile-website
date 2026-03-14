@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education · Sotirios Lympakis</title>
+    <meta name="description" content="Education details of Sotirios Lympakis." />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div id="the-top" class="top-skip">
+      <a href="#main-content"><span>↓</span>Skip to main content</a>
+    </div>
+
+    <header class="main-menu">
+      <div class="menu-inner">
+        <nav class="brand-nav">
+          <a href="../index.html">Sotirios Lympakis</a>
+        </nav>
+        <nav class="page-nav" aria-label="Main navigation">
+          <a href="index.html">Education</a>
+          <a href="../projects/index.html">Projects</a>
+          <a href="../more/index.html">+More</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="shell">
+      <main id="main-content" class="grow education-main">
+        <section class="education-wrap" aria-label="Education timeline">
+          <div class="education-line" aria-hidden="true"></div>
+          <article class="education-card">
+            <div class="education-icon" aria-hidden="true">🎓</div>
+
+            <header class="education-head">
+              <h1>BSc. in Computer Science and Telecommunications</h1>
+              <p class="education-date">November 2023 - June 2027</p>
+            </header>
+
+            <p class="education-department">DEPARTMENT OF INFORMATICS &amp; TELECOMMUNICATIONS</p>
+
+            <img
+              class="education-logo"
+              src="https://www.di.uoa.gr/themes/corporate_lite/logo_en.png"
+              alt="Department of Informatics and Telecommunications, University of Athens"
+            />
+
+            <div class="education-university">
+              National and Kapodistrian University of Athens
+            </div>
+
+            <ul class="education-points">
+              <li><strong>GPA:</strong> 7.4 so far</li>
+            </ul>
+          </article>
+        </section>
+
+        <div id="top-scroller">
+          <a href="#the-top" aria-label="Scroll to top" title="Scroll to top">↑</a>
+        </div>
+      </main>
+
+      <footer id="site-footer">
+        <div class="footer-row">
+          <p>© <span id="year"></span> Sotirios Lympakis</p>
+          <p>
+            Inspired by
+            <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>
+            &amp;
+            <a href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
